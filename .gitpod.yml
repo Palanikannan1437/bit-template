@@ -1,4 +1,4 @@
 tasks:
-  - before: PATH=$HOME/bin:$PATH
+  - before: export PATH=$HOME/bin:$PATH
   - init: |
-      npx @teambit/bvm install -y
+      npx -y @teambit/bvm install

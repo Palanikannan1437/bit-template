@@ -1,0 +1,4 @@
+tasks:
+  - before: PATH=$HOME/bin:$PATH
+  - init: |
+      npx @teambit/bvm install -y
